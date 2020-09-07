@@ -15,12 +15,14 @@ Option Explicit
 Public Sub GenerateData()
 
     Dim counter As Long
+    Dim carCount As Long
     Dim strPath As String
     
     strPath = "D:\xfer\csv\cars_data_test.csv"
+    carCount = 50000
     
     CreateCollections
-    CreateCars (50000)
+    CreateCars (carCount)
     writeFile (strPath)
     
     Set collModels = Nothing
