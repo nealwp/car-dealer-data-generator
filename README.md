@@ -3,7 +3,7 @@ Randomly generates a dataset of car dealer data. Output as CSV. Also created a V
 
 To utilize Python version:
   * Place script in desired location
-  * Run the script from shell -- python \<yourfilepath>.data-generator.py
+  * Run the script from shell: python \<yourfilepath>\\data-generator.py
   * console will prompt for number of records and desired output path
   * remember to use double slashes in the file path
 
