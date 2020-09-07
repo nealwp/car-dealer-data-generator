@@ -1,7 +1,11 @@
 # car-dealer-data-generator
-Randomly generates a dataset of car dealer data. Output as CSV.
+Randomly generates a dataset of car dealer data. Output as CSV. Also created a VBA version for users who do not have Python.
 
-Also created a VBA version for users who do not have Python.
+To utilize Python version:
+  * Place script in desired location
+  * Run the script from shell -- python \<yourfilepath>.data-generator.py
+  * console will prompt for number of records and desired output path
+  * remember to use double slashes in the file path
 
 To utilize VBA version:
  * Open MS Access or MS Excel
